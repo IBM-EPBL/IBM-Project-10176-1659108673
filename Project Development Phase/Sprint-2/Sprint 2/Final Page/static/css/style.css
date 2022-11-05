@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ================================= 
+        Header Starts
+==================================== */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #FCF6F5FF;
+}
+
+
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+}
+
+.main-nav {
+  margin-top: 5px;
+
+}
+
+.logo a,
+.main-nav a {
+  margin: 0 5px;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+.main-nav a {
+  color: #FCF6F5FF;
+  font-size: .99em;
+}
+
+.main-nav a:hover {
+  border: 2px solid #9ddfed;
+  border-radius: 13%;
+}
+
+.header {
+  overflow: hidden;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border: 1px solid #a2a2a2;
+  background-color: #89ABE3FF;
+}
+
+/* ================================= 
+        Header Ends
+==================================== */
+
+/* ================================= 
+  Body Starts
+==================================== */
+
+h3{
+  font-size: 42px;
+  margin-top: 15rem;
+  text-align: center;
+  color: #2d5faf;
+  text-transform: capitalize;
+  text-overflow: hidden;
+}
+.boxContainer{
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  width: 620px;
+  height: 22 px;
+  border: 3px solid #89ABE3FF;
+  border-radius: 50px;
+  padding: 0px 10px;
+}
+
+.elementContainer{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.search{
+  border: none;
+  height: 100%;
+  width: 110%;
+  border-radius: 50px;
+  font-size: 22px;
+}
+
+.search:focus{
+  outline: none;
+}
+
+.boxContainer img{
+  float: right;
+  width: 52px;
+  height: 45px;
+}
+
+button {
+  background: #89ABE3FF;
+  color: #fafafa;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: .3s;
+}
+
+.btn{
+  position: relative;
+  margin-top: 2.5rem;
+  margin-left: 46%;
+}
+
+button:hover {
+  background: transparent;
+  border: 2px solid #89ABE3FF;
+  cursor: pointer;
+  color: #89ABE3FF;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+
+  .header,
+  .main-nav {
+    display: flex;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
