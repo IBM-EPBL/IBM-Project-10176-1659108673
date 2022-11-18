@@ -18,15 +18,5 @@ In order to detect and predict e-banking phishing websites, we proposed an intel
 - <a href="https://github.com/DhanushG0111">Dhanush G </a>
 - <a href="https://github.com/Tarun2203">Tarun MK </a>
 
-## Languages Used:
-  <a>angular </a>
-  <a>React </a>
-  <a>Html </a>
-  <a>CSS </a>
-  <a>django </a>
-  <a>Nodejs </a>
-  <a>Python
-  </a>
-
 ## PROJECT ID
 Project ID : IBM-Project-10176-1659108673
