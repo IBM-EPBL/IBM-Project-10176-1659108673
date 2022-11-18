@@ -19,7 +19,14 @@ In order to detect and predict e-banking phishing websites, we proposed an intel
 - <a href="https://github.com/Tarunmk-cn">Tarun MK </a>
 
 ## Languages Used:
--<a>angular,react,html,css,django,nodejs,python&perline</a>
+  <a>angular </a>
+  <a>React </a>
+  <a>Html </a>
+  <a>CSS </a>
+  <a>django </a>
+  <a>Nodejs </a>
+  <a>Python
+  </a>
 
 ## PROJECT ID
 Project ID : IBM-Project-10176-1659108673
