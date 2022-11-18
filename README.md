@@ -16,7 +16,7 @@ In order to detect and predict e-banking phishing websites, we proposed an intel
 - <a href="https://github.com/MassRohith123">Rohith R </a>
 - <a href="https://github.com/Srivanth007">Srivanth S </a>
 - <a href="https://github.com/DhanushG0111">Dhanush G </a>
-- <a href="https://github.com/Tarunmk-cn">Tarun MK </a>
+- <a href="https://github.com/Tarun2203">Tarun MK </a>
 
 ## Languages Used:
   <a>angular </a>
