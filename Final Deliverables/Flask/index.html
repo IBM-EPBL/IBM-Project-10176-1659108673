@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css Attachment-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!--Header starts -->
+    <header class="header" id="home">
+        <h1 class="logo"><a href="#">Phishing</a></h1>
+        <ul class="main-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#try">Take a try</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+
+        </ul>
+    </header>
+
+    <section class="about">
+        <div class="main">
+            <div class="about-text">
+                <h1>Solution for web phishing attacks</h1>
+                <p>Be aware of phishing websites which are stealing your important credentials and information.
+                </p>
+                <button type="button"><a href="{{ url_for('Final') }}">Check URL</a></button>
+
+            </div>
+            <img src="{{ url_for('static', filename='images/phishing.png') }}" alt="Personal Image">
+        </div>
+    </section>
+    <!--Header ends -->
+
+    <!--About starts -->
+    <div class="container" id="about">
+        <h2 class="title" id="h2">About</h2>
+        <div class="text-area">
+            <div class="text1">
+                <p>Phishing attacks are one of the most common form of social engineering attacks. In a web-based
+                    phishing attack, attackers use web pages visually mimicking legitimate web sites, such as banking
+                    and government services, to deceive the victims to input their sensitive information (e.g., bank
+                    accounts and social security number). Though phishing attacks do not require advanced technical
+                    knowledge and these attack techniques are becoming familiar to users, they are still causing major
+                    financial damages.</p>
+            </div>
+            <div class="text2">
+                <p>Machine learning has been widely used in many areas to create automated solutions. Researchers also
+                    use machine learning to detect phishing attacks based on various features, Our solution is based on
+                    the aggregation analysis mechanism to automatically generate rules to determine layout similarity of
+                    web pages and then detect phishing pages. Our approach consists of two phases. It first trains a
+                    similarity classifier using page layout features, then uses the classifier to detect phishing pages.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--About ends -->
+
+    <!--Phishing starts -->
+
+
+    <div class="cover" id="try">
+        <div class="area1">
+            <h2 class="title1">Your safety your prediction</h2>
+            <p class="text3">For the protection of your credentials, information & such things why don't you try it
+                once.<br>
+            </p>
+        </div>
+        <button type="button"><a href="{{ url_for('Final') }}">Check your website</a></button>
+    </div>
+    <!--Phishing ends -->
+
+    <!--Contact starts -->
+    <div class="container1" id="contact">
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    A team of 4 members created this web phishing detection for creating awareness & protecting
+                    credentials, information & many more from malicious websites.
+                </p>
+
+                <div class="info">
+                    <div class="h3">Connect with us:</div>
+                    <div class="information">
+                        <p><a href="https://www.instagram.com/tagim07/">Asibul Hasan</a></p>
+                    </div>
+                    <div class="information">
+                        <p><a href="https://www.instagram.com/___jarvis_/">MD Hasan Raja</a></p>
+                    </div>
+                    <div class="information">
+                        <p><a href="https://www.instagram.com/junaidalamkuraishi/">Junaid Alam Qureshi</a></p>
+                    </div>
+                    <div class="information">
+                        <p><a href="https://www.instagram.com/mhk_rakib/">Muzakkir Hossen Khan</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact-form">
+
+                <form action="/RecievedData" method="POST">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" id="USERNAME" name="USERNAME" class="input" placeholder="Username" />
+                        <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" id="EMAIL" name="EMAIL" class="input" placeholder="Email" />
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" id="MOBILE" name="MOBILE" class="input" placeholder="Phone" />
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea id="MESSAGE" name="MESSAGE" class="input" placeholder="Message"></textarea>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" class="btn1" name="action" value="Send"/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Contact ends -->
+
+</body>
+
+<!--Script starts -->
+
+
+<!--Script ends -->
+
+</html>
